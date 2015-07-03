@@ -34,6 +34,7 @@ nav {
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
+					color: yellow;
 			}
 		}
 	}
@@ -44,7 +45,7 @@ nav {
 	width: 100%;
 	.box {
 		margin: 10px;
-		width: 350px;
+		width: 300px;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 		border-radius: 7px;
 		text-align: center;
@@ -131,12 +132,12 @@ textarea {
 }
 
 .navbar-default {
-  background-color: lightblue;
+  background-color: #424cae;
 	font-weight: bold;
 	.navbar-nav > li > a {
-	  color: blue;
+	  color: white;
 		&:hover {
-		  color: black;
+		  color: yellow;
 		}
 	}
 }
