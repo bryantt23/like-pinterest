@@ -30,7 +30,7 @@ nav {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 	.navbar-brand {
 		a {
-			color: #BD1E23;
+			color: red;
 			font-weight: bold;
 			&:hover {
 				text-decoration: none;
@@ -77,7 +77,7 @@ nav {
 		.user {
 			font-size: 12px;
 			border-top: 1px solid #EAEAEA;
-			padding: 15px;
+			padding: 0px;
 			margin: 0;
 		}
 	}
@@ -116,16 +116,27 @@ nav {
 		}
 	}
 	.panel-footer {
-		padding: 20px 35px;
+		padding: 0px 35px;
 		p {
 			margin: 0;
 		}
 		.user {
-			padding-top: 8px;
+			padding-top: 0px;
 		}
 	}
 }
 
 textarea {
 	min-height: 250px;
+}
+
+.navbar-default {
+  background-color: lightblue;
+	font-weight: bold;
+	.navbar-nav > li > a {
+	  color: blue;
+		&:hover {
+		  color: black;
+		}
+	}
 }
